@@ -1,0 +1,43 @@
+.categories{
+  margin: 80px auto;
+  padding: 0 80px;
+  position: relative;
+}
+
+/* styles of buttons */
+
+.back_button,
+.next_button{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  background: #86c232;
+  margin: 5px;
+  padding: 8px;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.next_button{
+  top: 50%;
+  left: 0;
+}
+
+/* styles of a card division */
+
+.cards{
+  overflow: hidden;
+}
+
+.cards ul{
+  width: 200%;
+  display: flex;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.cards ul li{
+  list-style: none;
+  padding: 10px;
+}

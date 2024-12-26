@@ -1,0 +1,51 @@
+/* styles of a different fruits */
+
+.apple{
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(35,228,16,1) 94%);
+  
+}
+
+.cherry,
+.pomegranate,
+.strawberry{
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(228,16,59,1) 94%);
+}
+
+.lemon{
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(77,228,16,1) 94%);
+}
+
+.grapes{
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(172,16,228,1) 94%);
+}
+
+.orange{
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(228,108,16,1) 94%);
+}
+
+.pineapple,
+.mango,
+.banana{
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(227,228,16,1) 94%);
+}
+
+.fruit_img img{
+  width: 300px;
+  margin: 10px;
+
+}
+
+
+.fruit_info{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 5px auto 5px auto;
+}

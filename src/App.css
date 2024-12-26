@@ -1,0 +1,16 @@
+.btn{
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+  border: 1px solid black;
+  outline: none;
+  margin: 10px;
+}
+
+.btn:hover{
+  background: orange;
+}
+
+.containeer{
+  margin: 0px 20px;
+}
